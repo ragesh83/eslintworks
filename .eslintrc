@@ -1,0 +1,16 @@
+{
+  "env": {
+    "node": true
+  },
+  {
+  "extends": 'angular'
+  },
+  "globals": {
+    "AnalysisView": true,
+    "PollingView": true,
+    "Prism": true,
+    "Spinner": true,
+    "Timer": true,
+    "moment": true
+  }
+}
