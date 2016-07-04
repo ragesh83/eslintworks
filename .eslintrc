@@ -3,7 +3,7 @@
     "node": true
   },
   {
-  "extends": 'angular'
+  "extends": 'eslint:recommended'
   },
   "globals": {
     "AnalysisView": true,
