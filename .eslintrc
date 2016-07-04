@@ -1,16 +1,18 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "browser" : true
   },
-  {
-  "extends": 'eslint:recommended'
-  },
+  "extends" : ['angular', 'eslint:recommended'],
   "globals": {
     "AnalysisView": true,
     "PollingView": true,
     "Prism": true,
     "Spinner": true,
     "Timer": true,
-    "moment": true
-  }
+    "moment": true,
+    "foodMeApp" : true
+  },
+  "plugins" : ["angular"]
+
 }
