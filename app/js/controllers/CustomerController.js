@@ -1,11 +1,12 @@
 'use strict';
 
-foodMeApp.controller('CustomerController',
+foodMeApp.controller('CustomerContr',
     function CustomerController($scope, customer, $location) {
 
   $scope.customerName = customer.name;
   $scope.customerAddress = customer.address;
 
+ var a = b;
 
   $scope.findRestaurants = function(customerName, customerAddress) {
     customer.name = customerName;

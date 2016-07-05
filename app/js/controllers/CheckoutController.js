@@ -1,6 +1,6 @@
 'use strict';
 
-foodMeApp.controller('CheckoutController',
+foodMeApp.controller('CheckoutCont',
     function CheckoutController($scope, cart, customer, $location) {
   var a = b;
   $scope.cart = cart;
@@ -9,6 +9,8 @@ foodMeApp.controller('CheckoutController',
   $scope.submitting = false;
 sfkdjdklfs
 
+
+  var e = f;
   $scope.purchase = function() {
     if ($scope.submitting) return;
 
