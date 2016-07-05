@@ -1,6 +1,6 @@
 'use strict';
 
-foodMeApp.controller('CheckoutCont',
+angular.module('foodmeApp').controller('CheckoutCont',
     function CheckoutController($scope, cart, customer, $location) {
   var a = b;
   $scope.cart = cart;
